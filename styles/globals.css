@@ -106,3 +106,26 @@ a {
   font-weight: 600;
   padding: 5px;
 }
+.init_click{
+  height: 100px;
+  width: 100px;
+  background:white;  
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: 'eng';
+  font-size: 24px;
+  font-weight: 600;
+}
+.initial_pos{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.linear{
+  background-image: url('../public/img/bgimg2.jpeg')
+}
