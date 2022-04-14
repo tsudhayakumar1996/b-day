@@ -19,26 +19,25 @@ export default function Home() {
           setcount(count => count -1)
         }else {
           setcount(5)
-        }
-        
+        }        
       }
-    }    
-
-  console.log("count",count)
+    }      
   return (
     <div className="top_container">
-      <audio autoPlay>
-        <source src="img/naanpizhai.mp3" type="audio/mpeg" />  
-      </audio>    
+      {trueState &&
+        <audio autoPlay>
+          <source src="img/naanpizhai.mp3" type="audio/mpeg" />  
+        </audio> 
+      }   
       {trueState ?
         <div className={`w-100 ${bg[count]}`}>        
           <div style={{position:'relative',height:'100vh'}}>
             <div className='img-pos'>
               {count < 5 ?
               <div>
-                <img className='img-fluid img-pad' src={`img/${im[count]}.jpeg`}></img> 
+                <img className='img-fluid img-pad' style={{maxHeight:475}} src={`img/${im[count]}.jpeg`}></img> 
               </div> : <div>
-                  <video className='w-100' controls autoPlay style={{padding:10}}>
+                  <video className='w-100' autoPlay style={{padding:10}}>
                     <source src='img/bdaycelebration.mp4' type="video/mp4"></source>
                   </video>
                   <p className='no-margin p-style'>At your Bday celebration</p>
@@ -54,7 +53,7 @@ export default function Home() {
             <div className='d-flex align-items-center justify-content-around right-pos' style={{position:'absolute',height:100,width:100}}>
               <p className='no-margin' onClick={()=>clickHandler("add")}>Click</p>
             </div>          
-            <p className='no-margin p-style' style={{fontSize:28}}>Happy Bday Brintha</p>          
+            <p className='no-margin p-style' style={{fontSize:34}}>Happy Bday Brintha</p>          
           </div>          
         </div> : 
         <div className='linear' style={{position:"relative",height:'100vh'}}> 

@@ -93,18 +93,15 @@ a {
   background:white;  
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 .img-pad{
   padding:10px;
 }
 .p-style{
   font-family: 'eng';
-  font-size: 22px;
+  font-size: 36px;
   font-weight: 600;
-  padding: 5px;
+  padding: 10px;
 }
 .init_click{
   height: 100px;
