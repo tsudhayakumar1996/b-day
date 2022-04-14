@@ -52,13 +52,12 @@ export default function Home() {
             </div>
             <div className='d-flex align-items-center justify-content-around right-pos' style={{position:'absolute',height:100,width:100}}>
               <p className='no-margin' onClick={()=>clickHandler("add")}>Click</p>
-            </div>          
-            <p className='no-margin p-style' style={{fontSize:34}}>Happy Bday Brintha</p>          
+            </div>                               
           </div>          
         </div> : 
         <div className='linear' style={{position:"relative",height:'100vh'}}> 
           <div className='initial_pos'>
-            <p className='no-margin text-center' style={{paddingBottom:20 }}>Udhayakumar</p>
+            <p className='no-margin text-center' style={{paddingBottom:20,fontSize:32}}>Happy Bday Brintha</p>
             <div className='init_click' onClick={()=>settrueState(true)}>
               <p className='no-margin text-center'>Click</p>
             </div>  
