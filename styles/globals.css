@@ -116,6 +116,7 @@ a {
   font-family: 'eng';
   font-size: 24px;
   font-weight: 600;
+  margin: 0 auto;
 }
 .initial_pos{
   position: absolute;
