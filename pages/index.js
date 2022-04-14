@@ -33,7 +33,7 @@ export default function Home() {
             <div>
               <img className='img-fluid img-pad' src={`img/${im[count]}.jpeg`}></img> 
             </div> : <div>
-                <video className='w-100' controls autoplay style={{padding:10}}>
+                <video className='w-100' controls autoPlay style={{padding:10}}>
                   <source src='img/bdaycelebration.mp4' type="video/mp4"></source>
                 </video>
                 <p className='no-margin p-style'>At your Bday celebration</p>
