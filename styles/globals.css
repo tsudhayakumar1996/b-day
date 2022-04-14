@@ -1,0 +1,108 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;  
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.no-margin{
+  margin:0px!important;
+}
+.no-padding{
+  padding:0px!important
+}
+@font-face {
+  font-family: 'eng';
+  src: url("../public/fonts/updock-regular-webfont.woff") format("woff");
+  src: url("../public/fonts/updock-regular-webfont.woff2") format("woff2");
+}
+.header{
+  font-family: 'eng';
+  font-size: 48px;
+}
+.bgm{  
+  height: 100vh;
+  width: 100%;
+  background-image: url("../public/img/bgm.jpeg");
+}
+.bgm2{  
+  height: 100vh;
+  width: 100%;
+  background-image: url("../public/img/bgimg2.jpeg");
+}
+.bgm3{  
+  height: 100vh;
+  width: 100%;
+  background-image: url("../public/img/bgimg3.jpeg");
+}
+.bgm4{  
+  height: 100vh;
+  width: 100%;
+  background-image: url("../public/img/bgimg4.jpeg");
+}
+.bgm5{  
+  height: 100vh;
+  width: 100%;
+  background-image: url("../public/img/bgimg5.jpeg");
+}
+.bgm6{  
+  height: 100vh;
+  width: 100%;
+  background-image: url("../public/img/bgimg6.jpeg");
+}
+.left-pos{
+  top: 90%;
+  left: 10px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5); 
+  font-weight: 800;
+  font-family: 'eng'; 
+  font-size: 28px;
+}
+.right-pos{
+  font-family: 'eng'; 
+  top: 90%;
+  right: 10px;
+  font-weight: 800;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background:white;  
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 28px;
+}
+.img-pos{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;  
+  background:white;  
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.img-pad{
+  padding:10px;
+}
+.p-style{
+  font-family: 'eng';
+  font-size: 22px;
+  font-weight: 600;
+  padding: 5px;
+}
