@@ -127,3 +127,14 @@ a {
 .linear{
   background-image: url('../public/img/bgimg2.jpeg')
 }
+.hbdayfont{
+  font-family: 'eng';
+}
+.loginBg{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+.btnns{
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
